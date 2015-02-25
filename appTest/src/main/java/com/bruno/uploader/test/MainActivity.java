@@ -1,19 +1,37 @@
 package com.bruno.uploader.test;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.os.Environment;
+import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.bruno.uploader.R;
+import com.bruno.uploader.DownloadManager;
+
+import java.io.File;
+import java.util.Random;
 
 
 public class MainActivity extends ActionBarActivity {
+    private static final String TAG = MainActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        File directory = Environment.getExternalStoragePublicDirectory("DownloaderTest");
+        if (!directory.exists()) {
+            Log.i(TAG, "Creating [" + directory.getAbsolutePath() + "] folders " + directory.mkdirs());
+        }
+
+        String urls[] = getResources().getStringArray(R.array.urls);
+        int index = 0;
+        for(String url: urls){
+            DownloadManager.download(this, url, "file_"+Integer.toString(index++)+"_"+randomInt()+".png", directory.getAbsolutePath());
+        }
+        //DownloadManager.start();
     }
 
 
@@ -37,5 +55,14 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private static Random sRandom;
+
+    private static String randomInt() {
+        if (sRandom == null) {
+            sRandom = new Random();
+        }
+        return Integer.toString(Math.abs(sRandom.nextInt(1000)));
     }
 }

@@ -5,4 +5,41 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <string-array name="urls">
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54de2887676287063db793d0/files/54ec8c01b1804bcf71f6985f/IMG-20150224-112937-Construct.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54ec9722b1804bcf71f69880/files/54ec9724b1804bcf71f69881/IMG-20150224-121512-Construct.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54ec9722b1804bcf71f69880/files/54ec9724b1804bcf71f69882/IMG-20150224-121309-Construct.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54ec9722b1804bcf71f69880/files/54ec9724b1804bcf71f69884/IMG-20150224-121528-Construct.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54ec9722b1804bcf71f69880/files/54ec9724b1804bcf71f69883/IMG-20150224-121520-Construct.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be977c4a2d10de7ccd47cb/files/54be977d4a2d10de7ccd47cc/IMG-20141212-WA0016.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be977c4a2d10de7ccd47cb/files/54be977d4a2d10de7ccd47cd/IMG-20141211-WA0066.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be977c4a2d10de7ccd47cb/files/54be977d4a2d10de7ccd47ce/IMG-20141211-WA0067.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be977c4a2d10de7ccd47cb/files/54be977e4a2d10de7ccd47d0/IMG-20141211-WA0060.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be977c4a2d10de7ccd47cb/files/54be977d4a2d10de7ccd47cf/IMG-20141211-WA0065.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be977c4a2d10de7ccd47cb/files/54be977e4a2d10de7ccd47d2/IMG-20141213-WA0006.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be977c4a2d10de7ccd47cb/files/54be977e4a2d10de7ccd47d1/IMG-20141211-WA0061.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be977c4a2d10de7ccd47cb/files/54be977e4a2d10de7ccd47d3/IMG-20141211-WA0062.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be977c4a2d10de7ccd47cb/files/54be977e4a2d10de7ccd47d5/IMG-20141212-WA0008.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be977c4a2d10de7ccd47cb/files/54be977e4a2d10de7ccd47d6/IMG-20141211-WA0068.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be977c4a2d10de7ccd47cb/files/54be977e4a2d10de7ccd47d7/IMG-20141211-WA0063.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be977c4a2d10de7ccd47cb/files/54be977e4a2d10de7ccd47d4/IMG-20141211-WA0064.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54d23de54a2d10de7ccd4840/files/54d23de64a2d10de7ccd4841/JPEG_20150204_133815_2101754640.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93454a2d10de7ccd4783/IMG-20150116-WA0019.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93454a2d10de7ccd4784/IMG-20150113-WA0058.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93454a2d10de7ccd4785/IMG-20150113-WA0062.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93464a2d10de7ccd4786/IMG-20150112-WA0001.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93464a2d10de7ccd4789/IMG-20150113-WA0059.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93464a2d10de7ccd478d/IMG-20150116-WA0022.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93464a2d10de7ccd4787/IMG-20150109-WA0004.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93464a2d10de7ccd478a/IMG-20150113-WA0061.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93464a2d10de7ccd4788/IMG-20150111-WA0004.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93464a2d10de7ccd4790/IMG-20150115-WA0015.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93464a2d10de7ccd478e/IMG-20150116-WA0012.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93474a2d10de7ccd479b/IMG-20150107-WA0007.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93474a2d10de7ccd479d/IMG-20150120-WA0044.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93464a2d10de7ccd4792/IMG-20150107-WA0004.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93474a2d10de7ccd479f/IMG-20150118-WA0003.jpg</item>
+        <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54be93414a2d10de7ccd4782/files/54be93464a2d10de7ccd478b/IMG-20150113-WA0060.jpg</item>
+    </string-array>
+
 </resources>
