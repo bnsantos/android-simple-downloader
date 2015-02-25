@@ -18,33 +18,41 @@ public class DownloadWorker  implements Runnable{
     private final String mUrl;
     private final String mFilename;
     private final String mPath;
+    private final IDownloadWorkerInterface mListener;
 
-    public DownloadWorker(Context context, String url, String filename, String path) {
+    public DownloadWorker(Context context, String url, String filename, String path, IDownloadWorkerInterface listener) {
         mContext = context;
         mUrl = url;
         mFilename = filename;
         mPath = path;
+        mListener = listener;
     }
 
     @Override
     public void run() {
+        mListener.setThread(Thread.currentThread());
         android.os.Process.setThreadPriority(android.os.Process.THREAD_PRIORITY_BACKGROUND);
 
         try {
             Log.i(TAG, "Downloading picture " + mUrl);
-
+            mListener.onStarted();
             URL url = new URL(mUrl);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             InputStream input = connection.getInputStream();
             if(input!=null){
                 ImageUtils.saveDownloadedPicture(mContext, mPath, mFilename, convertInputStreamToByteArray(input));
+                mListener.onCompleted(mPath);
                 Log.i(TAG, "Downloaded picture[" + mUrl + "] path[" + mPath + "]");
             }else{
+                //TODO add error
+                mListener.onError(new Exception());
                 Log.e(TAG, "Response null");
             }
         } catch (IOException e) {
+            mListener.onError(e);
             Log.e(TAG, "Error downloading picture[" + mUrl + "]", e);
         } catch (ExternalStorageException e) {
+            mListener.onError(e);
             Log.e(TAG, "Error saving picture[" + mUrl + "]", e);
         }
     }

@@ -4,6 +4,7 @@
     <string name="app_name">SimpleUploader</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="download_result">Successfully downloaded %s</string>
 
     <string-array name="urls">
         <item>https://s3.amazonaws.com/ctlmediadev/projects/54be91874a2d10de7ccd4776/notes/54de2887676287063db793d0/files/54ec8c01b1804bcf71f6985f/IMG-20150224-112937-Construct.jpg</item>

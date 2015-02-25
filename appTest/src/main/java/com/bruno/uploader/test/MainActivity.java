@@ -29,9 +29,8 @@ public class MainActivity extends ActionBarActivity {
         String urls[] = getResources().getStringArray(R.array.urls);
         int index = 0;
         for(String url: urls){
-            DownloadManager.download(this, url, "file_"+Integer.toString(index++)+"_"+randomInt()+".png", directory.getAbsolutePath());
+            DownloadManager.download(this, url, "file_"+Integer.toString(index++)+"_"+randomInt()+".png", directory.getAbsolutePath(), new DownloadListener(url));
         }
-        //DownloadManager.start();
     }
 
 
