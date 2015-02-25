@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.bruno.uploader"
+        applicationId "com.bruno.uploader.test"
         minSdkVersion 15
         targetSdkVersion 21
         versionCode 1

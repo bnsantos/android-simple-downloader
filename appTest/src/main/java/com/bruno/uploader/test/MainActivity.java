@@ -1,9 +1,11 @@
-package com.bruno.uploader;
+package com.bruno.uploader.test;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.bruno.uploader.R;
 
 
 public class MainActivity extends ActionBarActivity {
